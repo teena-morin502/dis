@@ -1,0 +1,306 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body { background-color:whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    
+}
+
+
+
+a{
+    font-weight: bolder;
+    text-align: center;
+   }
+   h2{
+   font-weight: bolder;
+   color:black;
+   font-size: 70px;
+   text-align: center;
+  }
+  p{
+    font-size: 25px;
+    margin:10px;
+    }
+
+
+
+
+
+
+.topic{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+}
+.side-way{
+   border:4px solid rgba(0, 0, 0, 0.68);
+   width:3px;
+   height: 6px;
+   padding:4px;
+   background-color: black;
+   
+}
+
+
+
+
+.header{
+    background-color: rgba(219, 218, 218, 0.916);
+    display: flex;
+    padding:30px;
+    justify-content:center;
+    font-size: 40px;
+    
+   
+}
+.main{
+    padding-top: 50px;
+}
+.cd{
+    padding:20px
+}
+.light{
+  font-size: 25px;
+  margin:5px;
+  text-align: left;
+}
+.tina{
+font-weight: bolder;
+text-align: left;
+}
+.normal{
+font-size: 30px;
+margin:10px;
+text-align: left;
+}
+
+
+
+
+nav{
+    border: 1px dotted rgb(182, 182, 182);
+    padding:30px;
+    text-align: right ;
+    position:sticky;
+    
+    padding-right: 40px;
+    
+}
+.ab:hover{
+    color: rgb(7, 7, 7);
+}
+.ab{
+    font-size: 35px;
+    text-decoration: none;
+    color:rgba(128, 128, 128, 0.931);
+    text-align: left;
+    margin-right: 25px;
+    
+}
+
+
+
+.nirom{
+    margin:50px;
+    height:800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.about{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin:20px;
+   display: flex;
+   margin:70px;
+   margin-right: 200px;
+margin-left: 250px;
+   gap:10px;
+}
+
+.about1{
+    font-size: 50px;
+    border-radius: 8px;
+}
+
+
+
+
+
+.skills{
+    background-color:rgba(219, 218, 218, 0.916);
+    color:rgb(0, 0, 10);
+    padding:70px;
+    height:700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.topics{
+    margin-bottom:30px;
+    display: flex;
+    justify-content: center;
+}
+.skills p{
+    text-align: left;
+    font-weight: bold;
+}
+.wh{
+    display:grid;
+    justify-content: center;
+}
+
+.wh0{
+border-radius:5px;
+height:40px;
+width:500px;
+background-color: rgba(255, 255, 255, 0.839);
+margin-bottom: 40px;
+color:rgb(254, 254, 254);
+
+   
+}
+
+.wh1{
+    border-radius:5px;
+    padding:10px;
+    width:80%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+    }
+.wh2{
+    border-radius:5px;
+    padding:10px;
+    width:70%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+    }
+.wh3{
+    border-radius:5px;
+    padding:10px;
+    width:90%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+     }
+.wh4{
+    border-radius:5px;
+    padding:10px;
+    width:80%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+    }
+
+
+
+
+
+
+
+
+.project{  
+      
+      margin: 100px;
+      height:1300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+         
+}
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    margin:40px;
+    justify-content: center;
+    
+}
+.low{
+    margin:10px;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+
+
+
+
+.form{
+    background-color:rgba(219, 218, 218, 0.916);
+    color:rgb(0, 0, 10);
+    padding: 50px;  
+    margin: 30px;
+    
+}
+.reg{
+    margin:50px;
+}
+.register{
+   border: 3px solid black;
+   box-shadow: 3px 4px 2px rgb(49, 49, 49);
+   font-size: 30px;
+   text-decoration: none;
+   color:rgb(172, 172, 172);
+   background-color: black;
+   padding:5px;
+}
+
+.register:hover{
+   background-color: rgb(166, 166, 165);
+   color:black;
+}
+
+
+
+
+
+.myself{
+display: flex;
+background-color: black;
+text-align: left;
+color: aliceblue;
+padding:40px;
+height:500px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+    
+}
+.contact{
+    font-size: 40px;
+    
+}
+.contact1{
+   font-size: 40px;
+   
+   margin-top:50px;
+}
+.contact2{
+    display: flex;
+    gap:100px;
+    margin:50px;
+    flex:wrap;
+
+}
+.bar{
+    border: 2px dashed white ;
+    width:290px;
+    
+}
+
+
+
+
